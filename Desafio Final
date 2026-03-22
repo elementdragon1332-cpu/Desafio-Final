@@ -1,0 +1,75 @@
+Analise das Consultas
+
+ Cliente
+
+Consulta 1: Clientes cadastrados por mês
+Resultado: Quantidade de clientes cadastrados em cada mês.
+Insight: Permite identificar padrões de crescimento da base de clientes, possibilitando otimizar campanhas de marketing e investir nos períodos com maior retorno.
+
+Consulta 2: Idade média dos clientes
+Resultado: Média de idade dos clientes.
+Insight: Evidencia o perfil predominante do público, permitindo direcionar campanhas e serviços mais adequados ao público-alvo.
+
+ Funcionário
+
+Consulta 1: Média salarial por cargo
+Resultado: Média de salário por cargo.
+Insight: Permite avaliar a estrutura salarial da empresa, auxiliando na manutenção da competitividade e na identificação de possíveis desigualdades.
+
+Consulta 2: Maior salário
+Resultado: Maior salário registrado.
+Insight: Evidencia o teto salarial da empresa, auxiliando no planejamento financeiro e definição de políticas salariais.
+
+ Veículo
+
+Consulta 1: Quantidade por status
+Resultado: Número de veículos disponíveis, alugados e em manutenção.
+Insight: Permite monitorar a disponibilidade da frota, ajudando a evitar falta de veículos e melhorar o planejamento operacional.
+
+Consulta 2: Valor médio da diária
+Resultado: Preço médio das diárias.
+Insight: Auxilia no posicionamento de preços da empresa, permitindo ajustes para maior competitividade no mercado.
+
+Contrato
+
+Consulta 1: Faturamento por status
+Resultado: Receita gerada por contratos (ativos, finalizados e atrasados).
+Insight: Permite identificar perdas financeiras e melhorar estratégias de cobrança.
+
+Consulta 2: Maior valor de aluguel
+Resultado: Contrato com maior valor registrado.
+Insight: Evidencia o potencial máximo de receita, auxiliando na criação de estratégias para aumentar o ticket médio.
+
+Pagamento
+
+Consulta 1: Total por forma de pagamento
+Resultado: Valores pagos por pix, cartão e boleto.
+Insight: Permite identificar preferências dos clientes e otimizar métodos de pagamento para reduzir custos operacionais.
+
+Consulta 2: Pagamentos por status
+Resultado: Quantidade de pagamentos pendentes, concluídos e cancelados.
+Insight: Permite identificar inadimplência e implementar ações para redução de perdas financeiras.
+
+Manutenção
+
+Consulta 1: Custo por tipo de manutenção
+Resultado: Total gasto em manutenção preventiva e corretiva.
+Insight: Permite avaliar onde estão os maiores custos, incentivando o investimento em manutenção preventiva.
+
+Consulta 2: Maior custo de manutenção
+Resultado: Manutenção mais cara registrada.
+Insight: Identifica veículos problemáticos, auxiliando na decisão de substituição ou revisão de processos.
+
+Análise com JOINs
+
+Consulta 1: Contratos com clientes
+Resultado: Relação de clientes que realizaram contratos.
+Insight: Permite identificar clientes ativos e criar estratégias de fidelização.
+
+Consulta 2: Contratos completos
+Resultado: Cliente, veículo e funcionário envolvidos.
+Insight: Proporciona uma visão completa da operação, permitindo avaliar desempenho e eficiência.
+
+Consulta 3: Veículos e manutenção
+Resultado: Veículos com ou sem manutenção registrada.
+Insight: Permite identificar falhas no controle de manutenção e prevenir problemas futuros.
